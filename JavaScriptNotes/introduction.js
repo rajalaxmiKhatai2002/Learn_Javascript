@@ -23,3 +23,7 @@ console.log("Hello, world!");  //o/p:-hello world
 //4. Full-stack Development: JavaScript's ability to run on both the client-side (browser) and server-side (Node.js) makes it well-suited for full-stack development in the MERN stack. As developers only need to write code in one language throughout the entire application, it reduces the complexity and improves productivity.
 
 // Overall, JavaScript is an essential part of MERN development because it facilitates seamless communication between the front-end and back-end components of the application, allowing for efficient development and maintenance of web applications.
+
+
+// variables in javascript:--------------
+// In JavaScript, variables are used to store data values that can be accessed and manipulated throughout your code. Here's how you declare variables in JavaScript:
