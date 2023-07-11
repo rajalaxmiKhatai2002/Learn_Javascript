@@ -8,3 +8,5 @@
 8.How does JavaScript handle data types? Provide examples of different data types in JavaScript.
 9.What are conditional statements in JavaScript, and how are they used to control program flow?
 10.What is the purpose of loops in JavaScript, and how do different types of loops work?
+11.what is variable in javascript?
+12.what is dataypes in javascript?
