@@ -31,3 +31,9 @@ console.log("Hello, world!");  //o/p:-hello world
 // 1.var
 // 2.const
 // 3.let
+// The difference between var, let, and const lies in their scoping behavior and mutability:
+
+// 1.Variables declared with var have function scope or global scope (if declared outside any function), which means they are accessible throughout the entire function or globally. They can also be redeclared and reassigned within their scope.
+// 2.Variables declared with let have block scope, meaning they are limited to the block (within curly braces) where they are defined or any nested blocks. They can be reassigned within their scope but cannot be redeclared in the same scope.
+//3. Variables declared with const also have block scope and behave like let, but they are immutable, i.e., their values cannot be changed once assigned. However, if a const variable holds an object or an array, its properties or elements can still be modified.
+// It's important to note that JavaScript is a dynamically-typed language, which means you don't need to explicitly declare the type of a variable.
