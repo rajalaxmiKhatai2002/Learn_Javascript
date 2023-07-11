@@ -37,3 +37,13 @@ console.log("Hello, world!");  //o/p:-hello world
 // 2.Variables declared with let have block scope, meaning they are limited to the block (within curly braces) where they are defined or any nested blocks. They can be reassigned within their scope but cannot be redeclared in the same scope.
 //3. Variables declared with const also have block scope and behave like let, but they are immutable, i.e., their values cannot be changed once assigned. However, if a const variable holds an object or an array, its properties or elements can still be modified.
 // It's important to note that JavaScript is a dynamically-typed language, which means you don't need to explicitly declare the type of a variable.
+// In JavaScript, there are several built-in data types that allow you to store and manipulate different kinds of values. The data types in JavaScript are as follows:
+
+// 1.Number: Represents numeric values, such as integers or floating-point numbers.
+// 2.String: Represents a sequence of characters enclosed in single quotes ('') or double quotes ("").
+// 3.Boolean: Represents either the value true or false.
+// 4.Null: Represents the intentional absence of any object value. It is a primitive value.
+// 5.Undefined: Represents an uninitialized variable or missing property.
+// 6.Object: Represents a collection of key-value pairs, where each value can be of any data type (including another object).
+// 7.Array: Represents an ordered list of values. Arrays can contain elements of different data types.
+// 8.Symbol: Represents a unique identifier and is often used as a key in objects.
