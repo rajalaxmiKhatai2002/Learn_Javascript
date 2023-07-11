@@ -27,3 +27,7 @@ console.log("Hello, world!");  //o/p:-hello world
 
 // variables in javascript:--------------
 // In JavaScript, variables are used to store data values that can be accessed and manipulated throughout your code. Here's how you declare variables in JavaScript:
+// it is declared in three different ways like:
+// 1.var
+// 2.const
+// 3.let
