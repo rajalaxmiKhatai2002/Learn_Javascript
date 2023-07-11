@@ -7,5 +7,8 @@
 // let myVariable = "Hello, World!";
 // console.log(myVariable);    //output of second variale type
 //another type of variale that is let
-let myVariable = "Hello, World!";
-console.log(myVariable);    
+// let myVariable = "Hello, World!";
+// console.log(myVariable);    
+
+
+//difference between these three types of variables:------
