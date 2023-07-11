@@ -12,3 +12,9 @@
 
 
 //difference between these three types of variables:------
+let myNumber = 42; 
+console.log(myNumber);// Number
+let myString = "Hello";
+console.log(myString); // String
+let myBoolean = true; // Boolean
+console.log(myBoolean);
