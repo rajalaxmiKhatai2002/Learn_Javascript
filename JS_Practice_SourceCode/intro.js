@@ -12,9 +12,12 @@
 
 
 //difference between these three types of variables:------
-let myNumber = 42; 
-console.log(myNumber);// Number
-let myString = "Hello";
-console.log(myString); // String
-let myBoolean = true; // Boolean
-console.log(myBoolean);
+// let myNumber = 42; 
+// console.log(myNumber);// Number
+// let myString = "Hello";
+// console.log(myString); // String
+// let myBoolean = true; // Boolean
+// console.log(myBoolean);
+//array example:------
+Array = [25,67,"barsha",8];
+console.log(Array);
