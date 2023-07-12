@@ -21,3 +21,8 @@
 //array example:------
 Array = [25,67,"barsha",8];
 console.log(Array);
+//example of objects:------
+
+{key:value}
+{value:key}
+
