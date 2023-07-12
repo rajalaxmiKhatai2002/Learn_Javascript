@@ -45,5 +45,5 @@ console.log("Hello, world!");  //o/p:-hello world
 // 4.Null: Represents the intentional absence of any object value. It is a primitive value.
 // 5.Undefined: Represents an uninitialized variable or missing property.
 // 6.Object: Represents a collection of key-value pairs, where each value can be of any data type (including another object).
-// 7.Array: Represents an ordered list of values. Arrays can contain elements of different data types.
+// 7.Array: Represents an ordered list of values. Arrays can contain elements of different data types.collection of values this values can be as different types of values.
 // 8.Symbol: Represents a unique identifier and is often used as a key in objects.
