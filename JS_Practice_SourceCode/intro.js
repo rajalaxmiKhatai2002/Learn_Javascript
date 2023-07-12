@@ -21,8 +21,6 @@
 //array example:------
 Array = [25,67,"barsha",8];
 console.log(Array);
-//example of objects:------
-
-{key:value}
-{value:key}
+//example of objects:---
+var x = 5;  //here var is a keyword and 5 is the value
 
