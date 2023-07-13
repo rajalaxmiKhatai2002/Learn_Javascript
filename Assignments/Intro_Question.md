@@ -10,3 +10,4 @@
 10.What is the purpose of loops in JavaScript, and how do different types of loops work?
 11.what is variable in javascript?
 12.what is dataypes in javascript?
+13.write a program for user registration?
