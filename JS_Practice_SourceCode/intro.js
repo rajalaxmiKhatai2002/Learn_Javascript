@@ -25,5 +25,6 @@
 // var x = 5;  //here var is a keyword and 5 is the value
 //a variable also can be a singl chraacter or ,ulti character it also can be a alphanumeric character
 let arra1 = ['value',764,"anurag","rajalaxmi"];
-console.log(arra1);
+console.log(arra1[2]);
+
 
