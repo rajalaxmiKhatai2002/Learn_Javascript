@@ -24,7 +24,11 @@
 // //example of objects:---
 // var x = 5;  //here var is a keyword and 5 is the value
 //a variable also can be a singl chraacter or ,ulti character it also can be a alphanumeric character
-let arra1 = ['value',764,"anurag","rajalaxmi"];
-console.log(arra1[2][3]);   //it will provide us the foruth latter of the third array if we count the arrray values in starting with 1 respectively.
+// let arra1 = ['value',764,"anurag","rajalaxmi"];
+// console.log(arra1[2][3]);   //it will provide us the foruth latter of the third array if we count the arrray values in starting with 1 respectively.
+//operator in js
+let value1 = 25;
+let value2 = 5;
+console.log(value1+value2);
 
 
