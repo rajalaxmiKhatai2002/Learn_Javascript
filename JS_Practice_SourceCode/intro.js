@@ -28,7 +28,9 @@
 // console.log(arra1[2][3]);   //it will provide us the foruth latter of the third array if we count the arrray values in starting with 1 respectively.
 //operator in js
 let value1 = 25;
-let value2 = 5;
-console.log(value1+value2);
+// let value2 = 5;
+let value2 = "5"    //if we add string then what the result an dwhat the type of the result
+let result = value1+value2;
+console.log(typeof result); //o/p:225 and type is string
 
 
