@@ -36,5 +36,6 @@ let mrp = 1453;
 let discript = 234;
 console.log("the mrp of item is: " +mrp);
 let DPrice = (mrp - discript) / mrp*100;
+console.log("the descriptive " +DPrice);
 
 
