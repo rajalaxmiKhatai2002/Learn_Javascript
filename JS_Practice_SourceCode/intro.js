@@ -32,10 +32,14 @@
 // let value2 = "5"    //if we add string then what the result an dwhat the type of the result
 // let result = value1+value2;
 // console.log(typeof result); //o/p:225 and type is string
-let mrp = 1453;
-let discript = 234;
-console.log("the mrp of item is: " +mrp);
-let DPrice = (mrp - discript) / mrp*100;
-console.log("the descriptive " +DPrice);
+// let mrp = 1453;
+// let discript = 234;
+// console.log("the mrp of item is: " +mrp);
+// let DPrice = (mrp - discript) / mrp*100;
+// console.log("the descriptive " +DPrice);
+//type casting in js.......
+let myvar;
+myvar = String(34);
+console.log(myvar,(typeof myvar));
 
 
