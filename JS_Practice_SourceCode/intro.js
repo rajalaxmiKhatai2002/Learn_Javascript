@@ -42,7 +42,9 @@
 // myvar = String(34);
 // console.log(myvar,(typeof myvar));
 //typecasting in javascript
-let no1 = 10;
-console.log(toString(no1));
+let num = 10;
+let str = "20";
+let result = num + str; // Result: "1020"
+console.log(result);
 
 
