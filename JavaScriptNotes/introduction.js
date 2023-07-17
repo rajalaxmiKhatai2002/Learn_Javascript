@@ -56,3 +56,6 @@ console.log("Hello, world!");  //o/p:-hello world
 // Manually converting a value from one type to another using specific functions or operators.
 // Examples include converting a string to a number or vice versa.
 // To convert a value to a Number data type, you can use the Number() function or the unary plus operator (+).
+//copy via value and copy via reference
+//1.Copying by Value: When you copy a primitive value (such as numbers, booleans, or strings), you create an independent copy of that value. Modifying one variable doesn't affect the other. Here's an example:
+//2.Copying by Reference: When you copy/reference complex data types such as objects or arrays, you are creating a reference to the original object/array rather than making a new copy. Both variables point to the same memory location. Modifying one affects the other. Consider this example:(intro.js file)
