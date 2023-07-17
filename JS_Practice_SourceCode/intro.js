@@ -76,13 +76,30 @@
 // console.log(y); // Output: 5 (y remains unchanged)
 // In this case, x and y each have their own separate copies of the value 5. Changing the value of x does not affect the value of y.
 //copy via reference
-let arr1 = [1, 2, 3];
-let arr2 = arr1; // Copying the reference of arr1 to arr2
+// let arr1 = [1, 2, 3];
+// let arr2 = arr1; // Copying the reference of arr1 to arr2
 
-arr1.push(4); // Modifying arr1
+// arr1.push(4); // Modifying arr1
 
-console.log(typeof arr1); // Output: [1, 2, 3, 4]
-console.log(arr2); // Output: [1, 2, 3, 4] (both arr1 and arr2 reflect the change)
+// console.log(typeof arr1); // Output: [1, 2, 3, 4]
+// console.log(arr2); // Output: [1, 2, 3, 4] (both arr1 and arr2 reflect the change)
+//shallow copy 
+const originalObj = {
+    name: 'John',
+    age: 30,
+    hobbies: ['reading', 'gaming'],
+  };
+  
+  const shallowCopy = Object.assign({}, originalObj);
+  
+  // Modifying the shallow copy
+  shallowCopy.name = 'Jane';
+  shallowCopy.hobbies.push('painting');
+  
+  console.log(originalObj); // { name: 'John', age: 30, hobbies: ['reading', 'gaming', 'painting'] }
+  console.log(shallowCopy); // { name: 'Jane', age: 30, hobbies: ['reading', 'gaming', 'painting'] }
+  
+
 
 
 
