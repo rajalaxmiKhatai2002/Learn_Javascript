@@ -38,8 +38,11 @@
 // let DPrice = (mrp - discript) / mrp*100;
 // console.log("the descriptive " +DPrice);
 //type casting in js.......
-let myvar;
-myvar = String(34);
-console.log(myvar,(typeof myvar));
+// let myvar;
+// myvar = String(34);
+// console.log(myvar,(typeof myvar));
+//typecasting in javascript
+let no1 = 10;
+console.log(toString(no1));
 
 

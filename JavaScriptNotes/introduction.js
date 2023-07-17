@@ -47,3 +47,12 @@ console.log("Hello, world!");  //o/p:-hello world
 // 6.Object: Represents a collection of key-value pairs, where each value can be of any data type (including another object).
 // 7.Array: Represents an ordered list of values. Arrays can contain elements of different data types.collection of values this values can be as different types of values.
 // 8.Symbol: Represents a unique identifier and is often used as a key in objects.
+// In JavaScript, type casting refers to the process of converting a value from one data type to another. JavaScript provides several methods for type casting, including implicit and explicit type casting.
+
+//1. Implicit Type Casting:
+// Automatic type conversion that occurs when JavaScript tries to perform an operation on operands of different types.
+// For example, when you use the "+" operator on a string and a number, JavaScript will attempt to convert the number to a string and concatenate them.
+//2.Explicit Type Casting:
+// Manually converting a value from one type to another using specific functions or operators.
+// Examples include converting a string to a number or vice versa.
+// To convert a value to a Number data type, you can use the Number() function or the unary plus operator (+).
