@@ -42,9 +42,32 @@
 // myvar = String(34);
 // console.log(myvar,(typeof myvar));
 //typecasting in javascript
-let num = 10;
-let str = "20";
-let result = num + str; // Result: "1020"
-console.log(result);
+// let num = 10;
+// let str = "20";
+// let result = num + str; // Result: "1020"
+// console.log(result);
+//To convert a value to a Number data type, you can use the Number() function or the unary plus operator (+).
+// let stri = "10";
+// let num1 = Number(stri); // Result: 10
+// console.log(num1);
+
+// let str = "20";
+// let num1 = +str; // Result: 20
+// console.log(num1);
+//To convert a value to a String data type, you can use the String() function or the .toString() method.
+// let num = 10;
+// let str = String(num); // Result: "10"
+// console.log( typeof str);
+
+// let num = 20;
+// let str = num.toString(); // Result: "20"
+// JavaScript also provides functions like parseInt() and parseFloat() to convert strings to integers or floating-point numbers, respectively
+let str = "10.5";
+let num = parseInt(str); // Result: 10.5
+console.log(num);
+console.log( typeof num);
+
+
+
 
 
