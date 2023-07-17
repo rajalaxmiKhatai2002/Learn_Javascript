@@ -66,6 +66,24 @@
 // let num = parseInt(str); // Result: 10.5
 // console.log(num);
 // console.log( typeof num);
+//converting array to object
+// const array = ['apple', 'banana', 'orange'];
+
+// // Convert array to object
+// const object = Object.assign({}, array);    //{} this is used for target object that means source object to target object
+
+// console.log(object);
+//converting nestef darray to object in js
+// const nestedArray = [
+//     ['name', 'rajalaxmi khatai'],
+//     ['rollno', '83'],
+//     ['branch', 'mca']
+//   ];
+  
+//   const result = nestedArray.reduce((obj, [key, value]) => {obj[key] = value;return obj; }, {});
+  
+//   console.log(result);
+
 //COPY VIA VALUE
 // let x = 5;
 // let y = x; // Copying the value of x to y
@@ -84,20 +102,22 @@
 // console.log(typeof arr1); // Output: [1, 2, 3, 4]
 // console.log(arr2); // Output: [1, 2, 3, 4] (both arr1 and arr2 reflect the change)
 //shallow copy 
-const originalObj = {
-    name: 'John',
-    age: 30,
-    hobbies: ['reading', 'gaming'],
-  };
+// const originalObj = {
+//     name: 'John',
+//     age: 30,
+//     hobbies: ['reading', 'gaming'],
+//   };
   
-  const shallowCopy = Object.assign({}, originalObj);
+//   const shallowCopy = Object.assign({}, originalObj);
   
-  // Modifying the shallow copy
-  shallowCopy.name = 'Jane';
-  shallowCopy.hobbies.push('painting');
+//   // Modifying the shallow copy
+//   shallowCopy.name = 'Jane';
+//   shallowCopy.hobbies.push('painting');
   
-  console.log(originalObj); // { name: 'John', age: 30, hobbies: ['reading', 'gaming', 'painting'] }
-  console.log(shallowCopy); // { name: 'Jane', age: 30, hobbies: ['reading', 'gaming', 'painting'] }
+//   console.log(originalObj); // { name: 'John', age: 30, hobbies: ['reading', 'gaming', 'painting'] }
+//   console.log(shallowCopy); // { name: 'Jane', age: 30, hobbies: ['reading', 'gaming', 'painting'] }
+//hoisting in js
+
   
 
 
