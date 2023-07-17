@@ -62,10 +62,31 @@
 // let num = 20;
 // let str = num.toString(); // Result: "20"
 // JavaScript also provides functions like parseInt() and parseFloat() to convert strings to integers or floating-point numbers, respectively
-let str = "10.5";
-let num = parseInt(str); // Result: 10.5
-console.log(num);
-console.log( typeof num);
+// let str = "10.5";
+// let num = parseInt(str); // Result: 10.5
+// console.log(num);
+// console.log( typeof num);
+//COPY VIA VALUE
+// let x = 5;
+// let y = x; // Copying the value of x to y
+
+// x = 10; // Modifying x
+
+// console.log(x); // Output: 10
+// console.log(y); // Output: 5 (y remains unchanged)
+// In this case, x and y each have their own separate copies of the value 5. Changing the value of x does not affect the value of y.
+//copy via reference
+let arr1 = [1, 2, 3];
+let arr2 = arr1; // Copying the reference of arr1 to arr2
+
+arr1.push(4); // Modifying arr1
+
+console.log(typeof arr1); // Output: [1, 2, 3, 4]
+console.log(arr2); // Output: [1, 2, 3, 4] (both arr1 and arr2 reflect the change)
+
+
+
+
 
 
 
