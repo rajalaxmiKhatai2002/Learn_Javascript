@@ -117,6 +117,11 @@
 //   console.log(originalObj); // { name: 'John', age: 30, hobbies: ['reading', 'gaming', 'painting'] }
 //   console.log(shallowCopy); // { name: 'Jane', age: 30, hobbies: ['reading', 'gaming', 'painting'] }
 //hoisting in js
+greet()
+function greet(){
+    console.log("good morning");
+}
+
 
   
 
