@@ -132,7 +132,7 @@
 //     console.log("wellcome to js variable hoisting");
 // }
 
-var hoisting = function vhoisting(){
+let hoisting = function vhoisting(){
     console.log("welcome to js");
 }
 vhoisting();
