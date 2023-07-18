@@ -123,8 +123,18 @@
 // }
 //hoisting in js
 //variable hoisting
-console.log(x); // Output: undefined
-var x = 10;
+// console.log(x); // Output: undefined
+// const x = 10;
+
+//variable hoisting
+// add();
+// function add(){
+//     console.log("wellcome to js variable hoisting");
+// }
+vhoisting();
+var hoisting = function vhoisting(){
+    console.log("welcome to js");
+}
 
 
   
