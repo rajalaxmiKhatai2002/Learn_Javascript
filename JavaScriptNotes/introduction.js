@@ -59,3 +59,6 @@ console.log("Hello, world!");  //o/p:-hello world
 //copy via value and copy via reference
 //1.Copying by Value: When you copy a primitive value (such as numbers, booleans, or strings), you create an independent copy of that value. Modifying one variable doesn't affect the other. Here's an example:
 //2.Copying by Reference: When you copy/reference complex data types such as objects or arrays, you are creating a reference to the original object/array rather than making a new copy. Both variables point to the same memory location. Modifying one affects the other. Consider this example:(intro.js file)
+//hoisting in javascript
+//Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use variables and call functions before they are declared in your code.
+
