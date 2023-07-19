@@ -62,3 +62,12 @@ console.log("Hello, world!");  //o/p:-hello world
 //hoisting in javascript
 //Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed. This means that you can use variables and call functions before they are declared in your code.
 
+//control folw statement in javascript
+//syntax:----
+// if(condition)
+// {
+//     console.log("code run if condition is true");
+// }
+// else{
+//     console.log("code not run if condition is false");
+// }
