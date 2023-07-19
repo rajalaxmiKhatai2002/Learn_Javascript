@@ -132,10 +132,19 @@
 //     console.log("wellcome to js variable hoisting");
 // }
 
-let hoisting = function vhoisting(){
-    console.log("welcome to js");
+// let hoisting = function vhoisting(){
+//     console.log("welcome to js");
+// }
+// vhoisting();
+
+const number = 5;
+
+if (number % 5 === 0) {
+  console.log("The number is even");
+} else {
+  console.log("The number is odd");
 }
-vhoisting();
+
 
   
 
