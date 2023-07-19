@@ -139,7 +139,7 @@
 
 const number = 5;
 
-if (number % 5 === 0) {
+if (number  === 5) {
   console.log("The number is even");
 } else {
   console.log("The number is odd");
