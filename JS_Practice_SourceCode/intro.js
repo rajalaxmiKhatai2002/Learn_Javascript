@@ -137,13 +137,23 @@
 // }
 // vhoisting();
 
-const number = 5;
+// const number = 5;
 
-if (number  === 5) {
+// if (number  === 5) {
+//   console.log("The number is even");
+// } else {
+//   console.log("The number is odd");
+// }
+var number = 9;
+
+if (number % 2 === 0) {
   console.log("The number is even");
+} else if (number % 3 === 0) {
+  console.log("The number is divisible by 3");
 } else {
   console.log("The number is odd");
 }
+
 
 
   
