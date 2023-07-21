@@ -106,3 +106,28 @@ for (let key in person) {
     // console.log(Your Name Is ${person[key].name} and Your Age Is ${person[key].age})
 
 }
+// for of loop
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for (let value of arr) {
+    console.log(value);
+}
+//login system using if else
+//User Site
+let username = 'chepichepa';
+let password = "SameerSweety@1";
+// DB Site 
+let dbusername = 'chepichepa';
+let dbpassword = "SameerSweety@17";
+if (username === dbusername && password === dbpassword) {
+    console.log('You Are Logged In');
+}
+else if(username != dbusername){
+    console.log('Your UserName Is InValid ');
+}
+else if(password != dbpassword){
+    console.log('Your Password Is InValid ');
+}
+
+else {
+    console.log('You Are Not A Valid User');
+}
