@@ -4,10 +4,10 @@ function fizzbuzz(){
     if (count%3===0){
         console.log("fizz");
     }
-    else if(count%5===0){
+     if(count%5===0){
         console.log("buzz");
     }
-    if(count%3===0 && count%5===0){
+     else if(count%3===0 && count%5===0){
         console.log("fizzbuzz");
     }
     else{
@@ -15,6 +15,6 @@ function fizzbuzz(){
     }
     
     count++;
-    
+    console.log(output);
 }
-// fizzbuzz();
+fizzbuzz();
