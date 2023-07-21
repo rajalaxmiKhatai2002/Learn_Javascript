@@ -131,3 +131,12 @@ else if(password != dbpassword){
 else {
     console.log('You Are Not A Valid User');
 }
+if(1==2){
+    console.log('true1');
+}
+else if(1>0){
+    console.log('true2'); // flow
+}
+else{
+    console.log('false');
+}
