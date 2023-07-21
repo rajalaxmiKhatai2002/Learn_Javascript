@@ -144,15 +144,18 @@
 // } else {
 //   console.log("The number is odd");
 // }
-var number = 9;
+// var number = 9;
 
-if (number % 2 === 0) {
-  console.log("The number is even");
-} else if (number % 3 === 0) {
-  console.log("The number is divisible by 3");
-} else {
-  console.log("The number is odd");
-}
+// if (number % 2 === 0) {
+//   console.log("The number is even");
+// } else if (number % 3 === 0) {
+//   console.log("The number is divisible by 3");
+// } else {
+//   console.log("The number is odd");
+// }
+//omit function
+
+
 
 
 
