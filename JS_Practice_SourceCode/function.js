@@ -66,3 +66,20 @@ else if(age>=18){
 else{
     console.log("are bhakuda tu kuade asichu")
 }
+// for loop
+for(let i=0; i<11; i++){
+    console.log(i);
+}
+// while loop
+let a = 12;
+while(a<11){
+    console.log(a);
+    a++;
+}
+// do while loop
+let b = 12;
+do{
+    console.log(b);
+    b++;    
+}
+while(b<11)
