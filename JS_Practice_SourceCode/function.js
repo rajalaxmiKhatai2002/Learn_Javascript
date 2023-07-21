@@ -47,3 +47,22 @@ function sum(a, b=2){
     return sum2(); 
 }
 console.log(sum(1,2)) // 3
+// higher order function
+function sum(a, b){ 
+    return a+b;
+}   
+function higherOrderFunction(callback){ // outer function parameter value callback ==== sum(a,b)
+    console.log(callback(1,12)); // inner function callback(1,2) ==== sum(1,2)
+}
+higherOrderFunction(sum) // 3
+// control flow statement
+let age = 14;
+if(age>=21){
+    console.log('true');
+}
+else if(age>=18){
+    console.log('are bhakudda');
+}
+else{
+    console.log("are bhakuda tu kuade asichu")
+}
