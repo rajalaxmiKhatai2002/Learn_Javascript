@@ -29,6 +29,17 @@ const sum1 = function(a,b){
 // / 1. Write a function that takes in a callback and calls the callback
 
 // function within function
+// function sum(a, b=2){
+//     function sum2(){
+//         return a+b;
+//     }
+//     return sum2(); 
+// }
+// console.log(sum(1,2)) // 3
+
+// / 1. Write a function that takes in a callback and calls the callback
+
+// function within function
 function sum(a, b=2){
     function sum2(){
         return a+b;
@@ -36,4 +47,3 @@ function sum(a, b=2){
     return sum2(); 
 }
 console.log(sum(1,2)) // 3
-
