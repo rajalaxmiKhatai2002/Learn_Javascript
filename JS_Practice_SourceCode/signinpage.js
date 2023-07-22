@@ -61,3 +61,27 @@ const dblName = 'Swain';
 const dbemail = "st.sameer.builder.24@gmail.com"
 const dbMobileNo = 9583636596;
 const dbPassword = "SameerSweety@17";
+
+
+if(fName===dbfName && lName === dblName && email === dbemail && mobileNo === dbMobileNo && password2 === dbPassword){
+console.log("YOU ARE LOGGED IN")
+
+}
+else if(fName !== dbfName  ){
+    console.log("YOUR FIRSTNAME IS INVALID")
+}
+else if(lName !== dblName){
+    console.log("YOUR LASTNAME IS INVALID")
+}
+else if(email !== dbemail){
+    console.log("YOUR EMAIL IS INVALID")
+}
+else if( mobileNo !== dbMobileNo){
+    console.log("YOUR MOBILE NO IS INVALID")
+}
+else if(password2 !== dbPassword){
+    console.log("YOUR PASSWORD IS INVALID")
+}
+else{
+    console.log("YOU ARE NOT A VAILD USER")
+}
