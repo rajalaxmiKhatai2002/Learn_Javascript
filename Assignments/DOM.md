@@ -31,3 +31,20 @@ document.getElementById('heading').className
 
 document.getElementById('heading').getAttribute
 ƒ getAttribute() { [native code] }
+
+title
+<h1 id=​"heading" class=​"sub-parent">​learning dom manipuation in javascript​</h1>​
+title.style.backgroundColor = 'red'
+'red'
+title.style.pad = '5px'
+'5px'
+title.style.padding = '5px'
+'5px'
+title.style.color = 'green'
+'green'
+title.style.color = 'violet'
+'violet'
+title
+<h1 id=​"heading" class=​"sub-parent" style=​"background-color:​ red;​ padding:​ 5px;​ color:​ violet;​">​learning dom manipuation in javascript​</h1>​
+title.textContent
+'learning dom manipuation in javascript'
