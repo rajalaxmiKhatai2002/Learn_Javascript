@@ -46,5 +46,5 @@ title.style.color = 'violet'
 'violet'
 title
 <h1 id=​"heading" class=​"sub-parent" style=​"background-color:​ red;​ padding:​ 5px;​ color:​ violet;​">​learning dom manipuation in javascript​</h1>​
-title.textContent
+title.textContent //this method used to print or access the documentor element in the html page
 'learning dom manipuation in javascript'
