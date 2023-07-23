@@ -14,3 +14,20 @@ In JavaScript, the DOM is accessed through the global document object, which rep
 6.Traversing the DOM: You can navigate through the DOM tree by accessing an element's parent, children, or siblings. For example, you can use properties like parentNode, childNodes, firstChild, nextSibling, etc., to move around the tree and access related nodes.
 
 7.By leveraging the DOM, JavaScript can dynamically modify the content and behavior of web pages, enabling interactive and responsive web applications.
+
+console:-----------------
+document.getElementById('parent')
+null //output
+document.getElementById('heading')
+<h1 id=​"heading" class=​"sub-parent">​learning dom manipuation in javascript​</h1>​
+document.getElementById('heading').id
+'heading'
+
+document.getElementById('heading').class
+undefined
+
+document.getElementById('heading').className
+'sub-parent'
+
+document.getElementById('heading').getAttribute
+ƒ getAttribute() { [native code] }
