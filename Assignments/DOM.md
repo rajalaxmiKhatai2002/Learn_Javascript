@@ -55,4 +55,13 @@ title.textContent //this method used to print or access the content in the html 
 
 DIFFERENCE BETWEEN innerText AND textContent:-----------
 let us discuss about some query selectors:--------
+1.document.querySelector()
+ex:-document.querySelector('h2')
+<h2>​Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, odio?​</h2>​
 
+document.querySelector('#heading')
+<h1 id=​"heading" class=​"sub-parent">​learning dom manipuation in javascript​</h1>​
+document.querySelector('.sub-parent')
+<h1 id=​"heading" class=​"sub-parent">​learning dom manipuation in javascript​</h1>​
+document.querySelector('input[type = "text"]')
+<input type="text">
