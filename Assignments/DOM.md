@@ -93,3 +93,66 @@ VM1570:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color'
 (anonymous) @ VM1570:1
 templi[0].style.color = "green"
 'green'
+
+document.getElementsByClassName('dom1')
+HTMLCollection(4) [li.dom1, li.dom1, li.dom1, li.dom1]
+0
+: 
+li.dom1
+1
+: 
+li.dom1
+2
+: 
+li.dom1
+3
+: 
+li.dom1
+length
+: 
+4
+[[Prototype]]
+: 
+HTMLCollection
+const listitems = document.getElementsByClassName('dom1')
+undefined
+listitems
+HTMLCollection(4) [li.dom1, li.dom1, li.dom1, li.dom1]
+0
+: 
+li.dom1
+1
+: 
+li.dom1
+2
+: 
+li.dom1
+3
+: 
+li.dom1
+length
+: 
+4
+[[Prototype]]
+: 
+HTMLCollection
+Array.from(listitems)
+(4) [li.dom1, li.dom1, li.dom1, li.dom1]
+0
+: 
+li.dom1
+1
+: 
+li.dom1
+2
+: 
+li.dom1
+3
+: 
+li.dom1
+length
+: 
+4
+[[Prototype]]
+: 
+Array(0)
