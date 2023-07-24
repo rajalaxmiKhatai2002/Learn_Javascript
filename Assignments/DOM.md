@@ -65,3 +65,16 @@ document.querySelector('.sub-parent')
 <h1 id=​"heading" class=​"sub-parent">​learning dom manipuation in javascript​</h1>​
 document.querySelector('input[type = "text"]')
 <input type="text">
+
+
+ex:--
+document.querySelector('ul')
+<ul>​…​</ul>​
+const myul = document.querySelector('ul')
+undefined
+myul.querySelector('li')
+<li>​…​</li>​
+const turngreen = myul.querySelector('li')
+undefined
+turngreen.style.backgroundColor = "green"
+'green'
