@@ -78,3 +78,18 @@ const turngreen = myul.querySelector('li')
 undefined
 turngreen.style.backgroundColor = "green"
 'green'
+
+2.document.querySelectorAll():-------
+ex:---------
+document.querySelectorAll('li')
+NodeList(3) [li, li, li]0: li1: li2: lilength: 3[[Prototype]]: NodeList
+const templi = document.querySelectorAll('li')
+undefined
+templi
+NodeList(3) [li, li, li]
+templi.style.color = "green"
+VM1570:1 Uncaught TypeError: Cannot set properties of undefined (setting 'color')
+    at <anonymous>:1:20
+(anonymous) @ VM1570:1
+templi[0].style.color = "green"
+'green'
