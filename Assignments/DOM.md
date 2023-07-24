@@ -53,4 +53,6 @@ title.textContent //this method used to print or access the content in the html 
 2.document.textcontent()
 3.document.innertext()
 
-DIFFERENCE BETWEEN INNERTEXT AND INNERCONTENT:-----------
+DIFFERENCE BETWEEN innerText AND textContent:-----------
+let us discuss about some query selectors:--------
+
