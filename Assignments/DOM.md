@@ -48,3 +48,9 @@ title
 <h1 id=​"heading" class=​"sub-parent" style=​"background-color:​ red;​ padding:​ 5px;​ color:​ violet;​">​learning dom manipuation in javascript​</h1>​
 title.textContent //this method used to print or access the content in the html page
 'learning dom manipuation in javascript'
+//how to add contents in dom:------------------
+1.document.innerhtml()
+2.document.textcontent()
+3.document.innertext()
+
+DIFFERENCE BETWEEN INNERTEXT AND INNERCONTENT:-----------
