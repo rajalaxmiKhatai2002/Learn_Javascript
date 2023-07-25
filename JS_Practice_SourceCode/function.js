@@ -143,5 +143,9 @@
 
 // //arrow function---------------
 const user = {
-    
+    username:"rajalaxmi khatai",
+    password:765,
+    welcomemsg :function(){
+
+    }
 }
