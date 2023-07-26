@@ -156,3 +156,20 @@ length
 [[Prototype]]
 : 
 Array(0)
+
+
+In JavaScript, an execution context is an abstract concept that defines the environment in which JavaScript code is executed. It consists of variables, functions, and objects that are accessible by the code at a particular point during runtime.
+
+Every time a function is invoked or a script is executed, a new execution context is created. JavaScript uses a stack-like structure called the "call stack" to manage these execution contexts.
+
+Each execution context has three main components:
+
+1.Variable Object (VO) / Environment Record: It contains all the variables, function declarations, and function arguments defined within the current scope. In ECMAScript 5 and earlier, the Variable Object was used. However, in ECMAScript 6 (ES6) and later, the Environment Record is used instead.
+
+2.Scope Chain: It is a list of Variable Objects or Environment Records that represents the scope hierarchy. The scope chain allows the engine to resolve variable references when executing code.
+
+3.This Value: It refers to the value of the this keyword within the current execution context. The this value can vary depending on how a function is called.
+
+The execution context also tracks the order of code execution, maintains the context of asynchronous operations, and handles exceptions.
+
+Understanding the execution context is crucial for understanding variable scoping, hoisting, closures, and how the JavaScript engine executes code
