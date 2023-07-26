@@ -179,3 +179,7 @@ JAVASCRIPT execution context is basically three different types like:-----------
 1.global execution context
 2.function execution context
 3.eval execution context
+
+It will executed in two ways like:
+1.memory creation phase
+2.execution phase
