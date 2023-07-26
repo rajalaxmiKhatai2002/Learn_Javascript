@@ -172,4 +172,10 @@ Each execution context has three main components:
 
 The execution context also tracks the order of code execution, maintains the context of asynchronous operations, and handles exceptions.
 
-Understanding the execution context is crucial for understanding variable scoping, hoisting, closures, and how the JavaScript engine executes code
+Understanding the execution context is crucial for understanding variable scoping, hoisting, closures, and how the JavaScript engine executes code.
+
+
+JAVASCRIPT execution context is basically three different types like:---------------------
+1.global execution context
+2.function execution context
+3.eval execution context
