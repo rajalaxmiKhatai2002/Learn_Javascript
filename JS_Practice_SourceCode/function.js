@@ -152,3 +152,14 @@
 // user.welcomemsg
 
 //objects in javascript
+//singleton
+//object literals
+//object declaration
+const jsuser = {
+    name:"raj",
+    job:"sw developer ",
+    email:"uetwy@37836.com"
+}
+
+//accesing of object
+console.log(jsuser.job);
