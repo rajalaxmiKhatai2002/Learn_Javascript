@@ -142,11 +142,13 @@
 // // }
 
 // //arrow function---------------
-const user = {
-    username:"rajalaxmi khatai",
-    password:765,
-    welcomemsg :function(){
-        console.log(`$(this.username),welcome to arrow function`);
-    }
-}
-user.welcomemsg
+// const user = {
+//     username:"rajalaxmi khatai",
+//     password:765,
+//     welcomemsg :function(){
+//         console.log(`$(this.username),welcome to arrow function`);
+//     }
+// }
+// user.welcomemsg
+
+//objects in javascript
