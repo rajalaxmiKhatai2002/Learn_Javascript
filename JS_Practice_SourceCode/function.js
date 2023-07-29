@@ -183,10 +183,12 @@
 const shape = {
     radius: 10,
     diameter() {
-      return this.radius * 2;
+      return shape.radius * 2;
     },
-    perimeter: () => 2 * Math.PI * this.radius,
+     perimeter: () =>2*Math.PI* shape.radius
   };
   
   console.log(shape.diameter());
   console.log(shape.perimeter());
+  
+  
