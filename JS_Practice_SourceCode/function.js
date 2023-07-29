@@ -155,11 +155,19 @@
 //singleton
 //object literals
 //object declaration
-const jsuser = {
-    name:"raj",
-    job:"sw developer ",
-    email:"uetwy@37836.com"
-}
+// const jsuser = {
+//     name:"raj",
+//     job:"sw developer ",
+//     email:"uetwy@37836.com"
+// }
 
-//accesing of object
-console.log(jsuser.job);
+// //accesing of object
+// console.log(jsuser.job);
+function sayHi() {
+    console.log(name);
+    console.log(age);
+    var name = 'Lydia';
+    let age = 21;
+  }
+  
+  sayHi();
