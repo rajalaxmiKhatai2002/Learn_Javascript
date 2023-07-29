@@ -49,7 +49,7 @@ B: 20 and NaN
 C: 20 and 63
 D: NaN and 63
 
-Note that the value of diameter is a regular function, whereas the value of perimeter is an arrow function.
+Ans:--Note that the value of diameter is a regular function, whereas the value of perimeter is an arrow function.
 
 With arrow functions, the this keyword refers to its current surrounding scope, unlike regular functions! This means that when we call perimeter, it doesn't refer to the shape object, but to its surrounding scope (window for example).
 
