@@ -183,3 +183,6 @@ JAVASCRIPT execution context is basically three different types like:-----------
 It will executed in two ways like:
 1.memory creation phase
 2.execution phase
+
+->javascript can execute one command at a time and in a specific order so javascript is called synchronous,single thread language.
+-->whwn we run javascript code first of all an execution context is created..

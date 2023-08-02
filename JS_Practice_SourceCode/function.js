@@ -191,6 +191,8 @@
 //   console.log(shape.diameter());
 //   console.log(shape.perimeter());
   
-+true;
-!'Lydia';
+// +true;
+// !'Lydia';
+
+
   
