@@ -186,3 +186,9 @@ It will executed in two ways like:
 
 ->javascript can execute one command at a time and in a specific order so javascript is called synchronous,single thread language.
 -->whwn we run javascript code first of all an execution context is created..
+call stack in javascript:--------
+In JavaScript, the call stack is a mechanism used by the JavaScript engine to keep track of function calls during the execution of a program. It operates on the Last-In-First-Out (LIFO) principle, meaning that the last function called is the first one to be resolved.
+
+When a function is invoked in JavaScript, a new frame is created and pushed onto the call stack. This frame contains information about the function, such as its arguments and variables. The function's code is then executed, and if the function calls another function, a new frame is created for that function and pushed onto the top of the stack.
+
+The call stack allows JavaScript to keep track of where it is in a program's execution. When a function completes its execution, its frame is popped off the stack, and the control returns to the previous function. This process continues until all functions have completed, and the stack becomes empty
