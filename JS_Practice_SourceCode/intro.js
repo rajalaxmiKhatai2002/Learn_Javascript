@@ -170,7 +170,8 @@ function square(name){
 }
 var square2 = square(n);
 var square4 = square(4);
-
+console.log(square2);
+console.log(square4);
 
 
   
