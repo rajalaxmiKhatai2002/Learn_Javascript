@@ -194,15 +194,22 @@
 // +true;
 // !'Lydia';
 
-const bird = {
-    size: 'small',
-  };
+// const bird = {
+//     size: 'small',
+//   };
   
-  const mouse = {
-    name: 'Mickey',
-    small: true,
-  };
-  console.log(mouse.bird);
+//   const mouse = {
+//     name: 'Mickey',
+//     small: true,
+//   };
+//   console.log(mouse.bird);
+
+let c = { greeting: 'Hey!' };
+let d;
+
+d = c;
+c.greeting = 'Hello';
+console.log(d.greeting);
 
 
 
