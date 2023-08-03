@@ -202,6 +202,7 @@ const bird = {
     name: 'Mickey',
     small: true,
   };
+  console.log(mouse.bird);
 
 
 
