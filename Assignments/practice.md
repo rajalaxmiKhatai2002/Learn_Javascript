@@ -133,3 +133,17 @@ new Number() is a built-in function constructor. Although it looks like a number
 When we use the == operator (Equality operator), it only checks whether it has the same value. They both have the value of 3, so it returns true.
 
 However, when we use the === operator (Strict equality operator), both value and type should be the same. It's not: new Number() is not a number, it's an object. Both return false.
+
+9.class Chameleon {
+  static colorChange(newColor) {
+    this.newColor = newColor;
+    return this.newColor;
+  }
+
+  constructor({ newColor = 'green' } = {}) {
+    this.newColor = newColor;
+  }
+}
+
+const freddie = new Chameleon({ newColor: 'purple' });
+console.log(freddie.colorChange('orange'));
