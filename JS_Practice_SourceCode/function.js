@@ -218,19 +218,22 @@
 // console.log(a === b);
 // console.log(b === c);
 
-class Chameleon {
-    static colorChange(newColor) {
-      this.newColor = newColor;
-      return this.newColor;
-    }
+// class Chameleon {
+//     static colorChange(newColor) {
+//       this.newColor = newColor;
+//       return this.newColor;
+//     }
   
-    constructor({ newColor = 'green' } = {}) {
-      this.newColor = newColor;
-    }
-  }
+//     constructor({ newColor = 'green' } = {}) {
+//       this.newColor = newColor;
+//     }
+//   }
   
-  const freddie = new Chameleon({ newColor: 'purple' });
-  console.log(freddie.colorChange('orange'));
+//   const freddie = new Chameleon({ newColor: 'purple' });
+//   console.log(freddie.colorChange('orange'));
+let greeting;
+greetign = {}; // Typo!
+console.log(greetign);
 
 
 
