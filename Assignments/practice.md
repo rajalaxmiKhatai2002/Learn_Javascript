@@ -116,3 +116,15 @@ First, variable c holds a value to an object. Later, we assign d with the same r
 
 
 When you change one object, you change all of them.
+8.let a = 3;
+let b = new Number(3);
+let c = 3;
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
+
+A: true false true
+B: false false true
+C: true false false
+D: false true true
