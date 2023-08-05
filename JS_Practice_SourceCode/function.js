@@ -231,10 +231,20 @@
   
 //   const freddie = new Chameleon({ newColor: 'purple' });
 //   console.log(freddie.colorChange('orange'));
-let greeting;
-greetign = {}; // Typo!
-console.log(greetign);
-
+// let greeting;
+// greetign = {}; // Typo!
+// console.log(greetign);
+function Person(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+  
+  const member = new Person('Lydia', 'Hallie');
+  Person.getFullName = function() {
+    return `${this.firstName} ${this.lastName}`;
+  };
+  
+  console.log(member.getFullName());
 
 
 
