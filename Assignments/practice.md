@@ -170,3 +170,14 @@ window.greetign = {}, frames.greetign = {} and self.greetign in browsers.
 self.greetign in web workers.
 globalThis.greetign in all environments.
 In order to avoid this, we can use "use strict". This makes sure that you have declared a variable before setting it equal to anything
+11.function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+}
+
+const member = new Person('Lydia', 'Hallie');
+Person.getFullName = function() {
+  return `${this.firstName} ${this.lastName}`;
+};
+
+console.log(member.getFullName());
