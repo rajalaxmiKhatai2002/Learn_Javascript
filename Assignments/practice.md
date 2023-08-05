@@ -194,3 +194,14 @@ If you want a method to be available to all object instances, you have to add it
 Person.prototype.getFullName = function() {
   return `${this.firstName} ${this.lastName}`;
 };
+
+12.function Person(firstName, lastName) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+}
+
+const lydia = new Person('Lydia', 'Hallie');
+const sarah = Person('Sarah', 'Smith');
+
+console.log(lydia);
+console.log(sarah);
