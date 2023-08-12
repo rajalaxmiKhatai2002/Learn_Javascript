@@ -248,3 +248,8 @@ let number = 0;
 console.log(number++);
 console.log(++number);
 console.log(number);
+
+A: 1 1 2
+B: 1 2 2
+C: 0 2 2
+D: 0 1 2
