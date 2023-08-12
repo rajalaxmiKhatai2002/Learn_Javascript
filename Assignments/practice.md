@@ -310,3 +310,8 @@ function getAge(...args) {
 }
 
 getAge(21);
+
+A: "number"
+B: "array"
+C: "object"
+D: "NaN"
