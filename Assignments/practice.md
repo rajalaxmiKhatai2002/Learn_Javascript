@@ -263,3 +263,15 @@ The prefix unary operator ++:
 Increments the value (number is now 2)
 Returns the value (this returns 2)
 This returns 0 2 2.
+
+17. What's the output?
+function getPersonInfo(one, two, three) {
+  console.log(one);
+  console.log(two);
+  console.log(three);
+}
+
+const person = 'Lydia';
+const age = 21;
+
+getPersonInfo`${person} is ${age} years old`;
