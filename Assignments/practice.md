@@ -303,3 +303,10 @@ When testing equality, primitives are compared by their value, while objects are
 The two objects that we are comparing don't have that: the object we passed as a parameter refers to a different location in memory than the object we used in order to check equality.
 
 This is why both { age: 18 } === { age: 18 } and { age: 18 } == { age: 18 } return false.
+
+19. What's the output?
+function getAge(...args) {
+  console.log(typeof args);
+}
+
+getAge(21);
