@@ -163,16 +163,19 @@
 // }
 // let result1 = addnum(val1,val2)
 // let result2 = addnum(45,76)
-var n = 2;
-function square(name){
-    var ans = num*num;
-    return ans;
+// var n = 2;
+// function square(name){
+//     var ans = num*num;
+//     return ans;
+// }
+// var square2 = square(n);
+// var square4 = square(4);
+// console.log(square2);
+// console.log(square4);
+function a(){
+    var x = 10;
+    console.log(x);
 }
-var square2 = square(n);
-var square4 = square(4);
-console.log(square2);
-console.log(square4);
-
 
   
 
