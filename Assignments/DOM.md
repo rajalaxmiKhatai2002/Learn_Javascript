@@ -194,6 +194,8 @@ When a function is invoked in JavaScript, a new frame is created and pushed onto
 The call stack allows JavaScript to keep track of where it is in a program's execution. When a function completes its execution, its frame is popped off the stack, and the control returns to the previous function. This process continues until all functions have completed, and the stack becomes empty
 --->window is actually as  s glpbal object which is created by the object,incse of browser the global object is known as window.
 
+so,the window keyword and this both are same.
+
 
 
 
