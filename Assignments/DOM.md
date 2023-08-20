@@ -192,7 +192,7 @@ In JavaScript, the call stack is a mechanism used by the JavaScript engine to ke
 When a function is invoked in JavaScript, a new frame is created and pushed onto the call stack. This frame contains information about the function, such as its arguments and variables. The function's code is then executed, and if the function calls another function, a new frame is created for that function and pushed onto the top of the stack.
 
 The call stack allows JavaScript to keep track of where it is in a program's execution. When a function completes its execution, its frame is popped off the stack, and the control returns to the previous function. This process continues until all functions have completed, and the stack becomes empty
-
+--->window is actually as  s glpbal object which is created by the object,incse of browser the global object is known as window.
 
 
 
