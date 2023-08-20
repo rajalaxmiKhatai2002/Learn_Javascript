@@ -180,11 +180,17 @@
 //     var x = 10;
 //     console.log(x);
 // }
-function b(){
-    var x = 100;
+// function b(){
+//     var x = 100;
+// }
+// console.log(this.x);
+var a;
+if(a===undefined){
+    console.log("it is a undefined");
 }
-console.log(this.x);
-
+else{
+    console.log("it is not undefined");
+}
   
 
 
