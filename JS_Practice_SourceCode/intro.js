@@ -180,10 +180,10 @@
 //     var x = 10;
 //     console.log(x);
 // }
-function b(){
-    var x = 100;
-}
-console.log(this.x);
+// function b(){
+//     var x = 100;
+// }
+// console.log(this.x);
 var a = NaN;
 if(a===undefined){
     console.log("it is a undefined");
