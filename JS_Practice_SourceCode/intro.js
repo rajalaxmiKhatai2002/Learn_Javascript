@@ -184,7 +184,7 @@
 //     var x = 100;
 // }
 // console.log(this.x);
-var a = undefined;
+var a = null;
 if(a===undefined){
     console.log("it is a undefined");
 }
