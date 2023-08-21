@@ -184,13 +184,13 @@
 //     var x = 100;
 // }
 // console.log(this.x);
-var a = NaN;
-if(a===undefined){
-    console.log("it is a undefined");
-}
-else{
-    console.log("it is not undefined");
-}
+// var a = NaN;
+// if(a===undefined){
+//     console.log("it is a undefined");
+// }
+// else{
+//     console.log("it is not undefined");
+// }
   
 
 
