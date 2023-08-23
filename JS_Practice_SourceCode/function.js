@@ -261,10 +261,13 @@
 function a(){
   console.log("a called");
 }
+a();
 //function expression
    var b = function(){
     console.log("b called");
    }
-   //
+   b();
+   //function declaration
+    
 
   
