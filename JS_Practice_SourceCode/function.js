@@ -248,16 +248,23 @@
 
 //clouser concept
 
-function x(){
-  var a = 7;
-  function y(){
-    console.log(a);
-  }
-  y();
+// function x(){
+//   var a = 7;
+//   function y(){
+//     console.log(a);
+//   }
+//   y();
+// }
+// x();
+
+//function statement
+function a(){
+  console.log("a called");
 }
-x();
-
-
-
+//function expression
+   var b = function(){
+    console.log("b called");
+   }
+   //
 
   
