@@ -257,7 +257,7 @@
 // }
 // x();
 
-//function statement
+//function statement is also known as function declaration
 function a(){
   console.log("a called");
 }
@@ -267,7 +267,10 @@ a();
     console.log("b called");
    }
    b();
-   //function declaration
+   //anonymous function
+  //  function(){
+     
+  //  }
     
 
   
