@@ -253,8 +253,9 @@ function x(){
   function y(){
     console.log(a);
   }
+  y();
 }
-
+x();
 
 
 
