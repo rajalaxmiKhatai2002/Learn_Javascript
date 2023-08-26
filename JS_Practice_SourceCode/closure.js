@@ -6,4 +6,5 @@ function outerfinction(){
         console.log(x);
         console.log(y);
     }
+    innerfunction();
 }
