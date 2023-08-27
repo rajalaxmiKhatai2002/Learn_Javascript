@@ -74,4 +74,5 @@
 //  console.log(name1);
  // SameerSweety Swain Swain Swain
  let countName = "SameerSweety Swain Swain Swain"
+ console.log(countName.match("swain"));
 // 2 loc
