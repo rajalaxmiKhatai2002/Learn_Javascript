@@ -73,6 +73,11 @@
 //  name1 = "SameerSweety Swain"
 //  console.log(name1);
  // SameerSweety Swain Swain Swain
- let countName = "SameerSweety Swain Swain Swain"
- console.log(countName.match("swain"));
-// 2 loc
+//  let countName = "SameerSweety Swain Swain Swain"
+//  console.log(countName.match("swain"));
+let input1 = "sameer"
+let result = input1.toUpperCase();
+
+let rf = result.replace("SAMEER","REEMAS")
+console.log(result);
+console.log(rf);
