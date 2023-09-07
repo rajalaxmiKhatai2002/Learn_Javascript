@@ -192,7 +192,9 @@
 //     console.log("it is not undefined");
 // }
   
-
+//copywithin()
+const arr13 = ['a', 'b', 'c', 'd', 'e'];
+console.log(arr13.copyWithin(0, 3, 4)); 
 
 
 

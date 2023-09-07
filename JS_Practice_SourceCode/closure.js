@@ -81,6 +81,9 @@
 // let rf = result.replace("SAMEER","REEMAS")
 // console.log(result);
 // console.log(rf);
+
+
+
 // / 1. concat() method
 // // The concat() method is used to merge two or more arrays.
 // // This method does not change the existing arrays, but instead returns a new array.
