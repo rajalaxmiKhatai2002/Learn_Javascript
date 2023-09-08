@@ -204,12 +204,17 @@
 // const iterator1 = arr23.entries();
 // console.log(iterator1.next().value);
 
-const arr24 = ['a', 'b', 'c',3423];
-const iterator2 = arr24.entries();
-console.log(iterator2.next().value); 
-console.log(iterator2.next().value); 
-console.log(iterator2.next().value);
-console.log(iterator2.next().value);
+// const arr24 = ['a', 'b', 'c',3423];
+// const iterator2 = arr24.entries();
+// console.log(iterator2.next().value); 
+// console.log(iterator2.next().value); 
+// console.log(iterator2.next().value);
+// console.log(iterator2.next().value);
+
+// Example 1
+const arr28 = [1, 2, 3, 4, 5];
+const result1 = arr28.every((element) => element > 0);
+console.log(result1); // true
 
 
 
