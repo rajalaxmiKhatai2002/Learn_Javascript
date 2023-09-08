@@ -200,9 +200,15 @@
 // const arr13 = ['a', 'b', 'c', 'd', 'e'];
 // console.log(arr13.copyWithin(0, 3)); 
 
-const arr23 = ['a', 'b', 'c'];
-const iterator1 = arr23.entries();
-console.log(iterator1.next().value);
+// const arr23 = ['a', 'b', 'c'];
+// const iterator1 = arr23.entries();
+// console.log(iterator1.next().value);
+
+const arr24 = ['a', 'b', 'c'];
+const iterator2 = arr24.entries();
+console.log(iterator2.next().value); 
+console.log(iterator2.next().value); 
+console.log(iterator2.next().value);
 
 
 
