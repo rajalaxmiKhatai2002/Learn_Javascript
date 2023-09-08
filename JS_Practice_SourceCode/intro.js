@@ -193,8 +193,12 @@
 // }
   
 //copywithin()
+// const arr13 = ['a', 'b', 'c', 'd', 'e'];
+// console.log(arr13.copyWithin(0, 3, 4)); 
+
+
 const arr13 = ['a', 'b', 'c', 'd', 'e'];
-console.log(arr13.copyWithin(0, 3, 4)); 
+console.log(arr13.copyWithin(0, 3)); 
 
 
 
