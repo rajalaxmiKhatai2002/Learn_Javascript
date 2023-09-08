@@ -204,10 +204,11 @@
 // const iterator1 = arr23.entries();
 // console.log(iterator1.next().value);
 
-const arr24 = ['a', 'b', 'c'];
+const arr24 = ['a', 'b', 'c',3423];
 const iterator2 = arr24.entries();
 console.log(iterator2.next().value); 
 console.log(iterator2.next().value); 
+console.log(iterator2.next().value);
 console.log(iterator2.next().value);
 
 
