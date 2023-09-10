@@ -216,6 +216,9 @@ const arr28 = [1, 2, 3, 4, 5];
 const result1 = arr28.every((element) => element > 0);
 console.log(result1); // true
 
+const arra1 = [2,.4,53,"56"]
+const result  = arra1.every((element)=>element==Number);
+console.log(result);
 
 
 
