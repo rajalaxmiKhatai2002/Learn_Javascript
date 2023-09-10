@@ -220,8 +220,9 @@
 // const result  = arra1.every((element)=>element==Number);
 // console.log(result);
 let arra1 = [3,4,5,6,45,67,34,"3jghdjg"];
-let resul = arra1.fill(56,3,5);
+let resul = arra1.fill(56,3);
 console.log(resul);
+console.log(arra1);
 
 
 
