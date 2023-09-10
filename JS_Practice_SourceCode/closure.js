@@ -339,7 +339,7 @@
 // // Example 1
 // const arr47 = [1, 2, [3, 4]];
 // const result14 = arr47.flat();
-// console.log(result14); // [ 1, 2, 3, 4 ]
+// console.log(result14);            // [ 1, 2, 3, 4 ]
 
 // // Example 2
 // const arr48 = [1, 2, [3, 4, [5, 6]]];
