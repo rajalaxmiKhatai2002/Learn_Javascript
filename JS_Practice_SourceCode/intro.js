@@ -212,14 +212,16 @@
 // console.log(iterator2.next().value);
 
 // Example 1
-const arr28 = [1, 2, 3, 4, 5];
-const result1 = arr28.every((element) => element > 0);
-console.log(result1); // true
+// const arr28 = [1, 2, 3, 4, 5];
+// const result1 = arr28.every((element) => element > 0);
+// console.log(result1); // true
 
-const arra1 = [2,.4,53,"56"]
-const result  = arra1.every((element)=>element==Number);
-console.log(result);
-
+// const arra1 = [2,.4,53,"56"]
+// const result  = arra1.every((element)=>element==Number);
+// console.log(result);
+let arra1 = [3,4,5,6,45,67,34,"3jghdjg"];
+let resul = arra1.fill(56,3,5);
+console.log(resul);
 
 
 
