@@ -224,6 +224,10 @@ let resul = arra1.fill(56,3);
 console.log(resul);
 console.log(arra1);
 
+let arr10 =[3,4,5,6,45,67,34,"3jghdjg"];
+let arn = arr10.filter((Element)=>Element==String);
+console.log(arn);
+
 
 
 
