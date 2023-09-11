@@ -235,7 +235,7 @@
 // console.log(hgf);
 
 const arr54 = [1, 2, 3, 4, 5];
- arr54.forEach((element) => console.log(element));
+ arr54.forEach((element,index) => console.log(element));
 
 
 
