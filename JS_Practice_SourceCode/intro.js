@@ -230,9 +230,12 @@
 // let arrayn = [2134,546,7,7,5,3,"jghiuety"]
 // let arraresult = arrayn.find((Element)=>Element>1);
 // console.log(arraresult);
-let barsha = [22222222222222,53,5,64,65,[,35,635,653,"skjdfhjfgjsgf",[786]],[213,[324]],[56]];
-let hgf = barsha.flat();
-console.log(hgf);
+// let barsha = [22222222222222,53,5,64,65,[,35,635,653,"skjdfhjfgjsgf",[786]],[213,[324]],[56]];
+// let hgf = barsha.flat();
+// console.log(hgf);
+
+const arr54 = [1, 2, 3, 4, 5];
+ arr54.forEach((element) => console.log(element));
 
 
 
