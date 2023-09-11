@@ -224,10 +224,15 @@
 // console.log(resul);
 // console.log(arra1);
 
-let arr10 =[3,4,5,6,45,67,34,"3jghdjg"];
-let arn = arr10.filter((Element)=>Element== String);
-console.log(arn);
-
+// let arr10 =[3,4,5,6,45,67,34,"3jghdjg"];
+// let arn = arr10.filter((Element)=>Element > 6);
+// console.log(arn);
+// let arrayn = [2134,546,7,7,5,3,"jghiuety"]
+// let arraresult = arrayn.find((Element)=>Element>1);
+// console.log(arraresult);
+let barsha = [22222222222222,53,5,64,65,[,35,635,653,"skjdfhjfgjsgf",[786]],[213,[324]],[56]];
+let hgf = barsha.flat();
+console.log(hgf);
 
 
 
