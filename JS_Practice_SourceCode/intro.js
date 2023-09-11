@@ -234,7 +234,7 @@
 // let hgf = barsha.flat();
 // console.log(hgf);
 
-const arr54 = [1, 2, 3, 4, 5];
+const arr54 = [1, 2, 3, 4, 5,345,6456,4666666666,54,3];
  arr54.forEach((element,index) => console.log(element));
 
 
