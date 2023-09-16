@@ -237,7 +237,8 @@
 // const arr54 = [1, 2, 3, 4, 5,345,6456,4666666666,54,3];
 //  arr54.forEach((element,index) => console.log(element));
  const arr55 = [1, 2, 3, 4, 5];
-arr55.forEach((element, index) => console.log(index));
+// arr55.forEach((element, index) => console.log(index));
+arr56.forEach((elem, index, ar) => co = ar[index] = elem * 2);
 
 
 
