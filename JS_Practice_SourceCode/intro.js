@@ -242,7 +242,7 @@
 // console.log(arr56);
 
 const arra2 = [24,53,45,75,44,56,465,46,47,453];
- const atr = arra2.includes(24);
+ const atr = arra2.includes(453);
 console.log(atr);
 
 const arr57 = [1, 2, 3, 4, 5];
