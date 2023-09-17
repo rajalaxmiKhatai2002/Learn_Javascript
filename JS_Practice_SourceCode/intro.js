@@ -250,8 +250,9 @@
 //  console.log(result21); 
 
  const arr59 = [1, 2, 3, 4, 5];
-const result23 = arr59.indexOf(1);
+const result23 = arr59.indexOf(2);
 console.log(result23);
+
 
 
 
