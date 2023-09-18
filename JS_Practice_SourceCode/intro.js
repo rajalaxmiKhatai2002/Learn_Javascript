@@ -249,10 +249,12 @@
 //  const result21 = arr57.includes(1);
 //  console.log(result21); 
 
- const arr59 = [1, 2, 3, 4, 5];
-const result23 = arr59.indexOf(2);
-console.log(result23);
-
+//  const arr59 = [1, 2, 3, 4, 5];
+// const result23 = arr59.indexOf(2);
+// console.log(result23);
+const arr61 = [1, 2, 3, 4, 5];
+const result25 = Array.isArray(arr61);
+console.log(result25);
 
 
 
