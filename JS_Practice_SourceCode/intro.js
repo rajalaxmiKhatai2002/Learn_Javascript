@@ -255,7 +255,9 @@
 const arr61 = [1, 2, 3, 4, 5];
 const result25 = Array.isArray(arr61);
 console.log(result25);
-
+const arr62 = [1, 2, 3, 4, 5];
+const result26 = Array.isArray(1);
+console.log(result26); 
 
 
 
