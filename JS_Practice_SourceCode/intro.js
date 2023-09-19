@@ -259,9 +259,9 @@
 // const arr6 = [1, 2, 3, 4, 5,2342];
 // const result26 = Array.isArray(arr62[0]);
 // console.log(result26); 
-const arr63 = ['a', 'b', 'c'];
+const arr63 = [a, b, 'c'];
 // let arr4 = [234,"435w"];
-const result27 = arr63.join('');
+const result27 = arr63.join();
 console.log(result27);
 
 
