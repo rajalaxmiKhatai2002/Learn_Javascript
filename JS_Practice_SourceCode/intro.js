@@ -252,11 +252,12 @@
 //  const arr59 = [1, 2, 3, 4, 5];
 // const result23 = arr59.indexOf(2);
 // console.log(result23);
-const arr61 = [1, 2, 3, 4, 5];
-const result25 = Array.isArray(arr61);
-console.log(result25);
+// const arr61 = [1, 2, 3, 4, 5];
+// const result25 = Array.isArray(arr61);
+// console.log(result25);
 const arr62 = [1, 2, 3, 4, 5];
-const result26 = Array.isArray(8);
+const arr6 = [1, 2, 3, 4, 5,2342];
+const result26 = Array.isArray(arr62[0]);
 console.log(result26); 
 
 
