@@ -269,9 +269,13 @@
 // console.log(iterator6.next().value); 
 
 
-const arr65 = ['a', 'b', 'c',848677856];
-const iterator6 = arr65.keys();
-console.log(iterator6.next().value);
+// const arr65 = ['a', 'b', 'c',848677856];
+// const iterator6 = arr65.keys();
+// console.log(iterator6.next().value);
+
+const arr67 = ['a', 'b', 'c'];
+const result29 = arr67.lastIndexOf('a');
+console.log(result29); 
 
 
 
