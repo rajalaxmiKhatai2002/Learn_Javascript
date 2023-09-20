@@ -259,12 +259,14 @@
 // const arr6 = [1, 2, 3, 4, 5,2342];
 // const result26 = Array.isArray(arr62[0]);
 // console.log(result26); 
-const arr63 = [a, b, 'c'];
-// let arr4 = [234,"435w"];
-const result27 = arr63.join();
-console.log(result27);
+// const arr63 = [a, b, 'c'];
+// // let arr4 = [234,"435w"];
+// const result27 = arr63.join();
+// console.log(result27);
 
-
+const arr65 = ['a', 'b', 'c'];
+const iterator6 = arr65.keys();
+console.log(iterator6.next().value); 
 
 
 
