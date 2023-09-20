@@ -264,9 +264,10 @@
 // const result27 = arr63.join();
 // console.log(result27);
 
-const arr65 = ['a', 'b', 'c'];
+const arr65 = ['a', 'b', 'c',234,25,23,78,234,235];
 const iterator6 = arr65.keys();
 console.log(iterator6.next().value); 
+
 
 
 
