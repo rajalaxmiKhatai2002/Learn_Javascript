@@ -277,6 +277,11 @@ const arr67 = ['a', 'b', 'c',8737547654];
 const result29 = arr67.lastIndexOf(3);
 console.log(result29); 
 
+// Example 1
+const arr68 = [1, 2, 3, 4, 5];
+const result30 = arr68.map((element) => element * 2);
+console.log(result30); // [ 2, 4, 6, 8, 10 ]
+
 
 
 
