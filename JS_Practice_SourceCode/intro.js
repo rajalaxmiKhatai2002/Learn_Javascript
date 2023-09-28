@@ -273,9 +273,9 @@
 // const iterator6 = arr65.keys();
 // console.log(iterator6.next().value);
 
-const arr67 = ['a', 'b', 'c',8737547654];
-const result29 = arr67.lastIndexOf(3);
-console.log(result29); 
+// const arr67 = ['a', 'b', 'c',8737547654];
+// const result29 = arr67.lastIndexOf(3);
+// console.log(result29); 
 
 // Example 1
 const arr68 = [1, 2, 3, 4, 5];
