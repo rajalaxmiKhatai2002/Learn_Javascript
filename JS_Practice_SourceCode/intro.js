@@ -278,9 +278,13 @@
 // console.log(result29); 
 
 // Example 1
-const arr68 = [1, 2, 3, 4, 5];
-const result30 = arr68.map((element) => element * 4);
-console.log(result30); // [ 2, 4, 6, 8, 10 ]
+// const arr68 = [1, 2, 3, 4, 5];
+// const result30 = arr68.map((element) => element * 4);
+// console.log(result30); // [ 2, 4, 6, 8, 10 ]
+
+const arr69 = ['a', 'b', 'c'];
+const result31 = arr69.pop();
+console.log(result31);
 
 
 
