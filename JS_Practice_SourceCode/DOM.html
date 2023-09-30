@@ -35,7 +35,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+    <script>
+        function logpage(){
+            window.document.forms[0].elements[3].value = "register";
+        
+        }
+    </script>
 </head>
 <body onload="logpage()">
    <div>
@@ -49,14 +54,14 @@
             
              <input type="password"><br>
         
-            <input type="button">
+            <input type="button" value="signup">
         </form></div>
        
- 
+        <script>
+            function logpage(){
+                window.document.forms[0].elements[3].value = "register";
+            
+            }
+        </script>
 </body>
 </html>
-<script>
-    function logpage(){
-        window.document.forms[0].elements[3].value = "register";
-    }
-</script>
