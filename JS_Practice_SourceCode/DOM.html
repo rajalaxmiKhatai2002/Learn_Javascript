@@ -35,31 +35,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        function logpage(){
-            window.document.forms[3].elements[1].value = "register";
-        }
-    </script>
+   
 </head>
 <body onload="logpage()">
    <div>
         <form>
             <h1>SIGN UP</h1>
-            EMAIL : <input type="email">
-        </form>  </div><br>
-        <div>
-        <form>
-            USERNAME : <input type="text">
-        </form></div><br>
-        <div>
-        <form>
-            PASSWORD : <input type="password">
-        </form></div><br>
-        <div>
-        <form>
+            <label for="">EMIAL</label>
+             <input type="email"><br>
+             <label for="">USERNAMEL</label>
+            <input type="text"><br>
+            <label for="">password</label>
+            
+             <input type="password"><br>
+        
             <input type="button">
         </form></div>
        
  
 </body>
 </html>
+<script>
+    function logpage(){
+        window.document.forms[0].elements[3].value = "register";
+    }
+</script>
