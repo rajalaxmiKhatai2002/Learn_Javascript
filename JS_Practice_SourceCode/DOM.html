@@ -35,14 +35,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function logpage(){
+            window.document.forms[3].elements[1].value = "register";
+        }
+    </script>
 </head>
-<body>
+<body onload="logpage()">
    <div>
         <form action="">
             <h1>SIGN UP</h1>
             EMAIL : <input type="email"><br>
             USERNAME : <input type="text"><br>
-            PASSWORD : <input type="password">
+            PASSWORD : <input type="password"><br>
+            <input type="button">
             
         </form>
    </div>
