@@ -282,10 +282,12 @@
 // const result30 = arr68.map((element) => element * 4);
 // console.log(result30); // [ 2, 4, 6, 8, 10 ]
 
-const arr69 = ['a', 'b', 'c'];
-const result31 = arr69.pop();
-console.log(result31);
-
+// const arr69 = ['a', 'b', 'c'];
+// const result31 = arr69.pop();
+// console.log(result31);
+const arr70 = ['a', 'b', 'c'];
+const result32 = arr70.push('d');
+console.log(result32);
 
 
 
