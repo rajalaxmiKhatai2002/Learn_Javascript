@@ -285,10 +285,12 @@
 // const arr69 = ['a', 'b', 'c'];
 // const result31 = arr69.pop();
 // console.log(result31);
-const arr70 = ['a', 'b', 'c'];
-const result32 = arr70.push('d');
-console.log(result32);
-
+// const arr70 = ['a', 'b', 'c'];
+// const result32 = arr70.push('d');
+// console.log(result32);
+const arr71 = [1, 2, 3, 4, 5];
+const result33 = arr71.reduce((total, element) => total + element);
+console.log(result33);
 
 
 
