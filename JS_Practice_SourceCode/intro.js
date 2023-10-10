@@ -289,7 +289,7 @@
 // const result32 = arr70.push('d');
 // console.log(result32);
 const arr71 = [1, 2, 3, 4, 5];
-const result33 = arr71.reduce((total, element) => total + 0);
+const result33 = arr71.reduce((total, element) => total + 3);
 console.log(result33);
 
 
