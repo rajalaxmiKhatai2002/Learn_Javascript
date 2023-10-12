@@ -292,5 +292,7 @@ const arr71 = [1, 2, 3, 4, 5];
 const result33 = arr71.reduce((total, element) => total + 3);
 console.log(result33);
 
-
+const arr72 = [1, 2, 3, 4, 5];
+const result34 = arr72.reduceRight((total, element) => total + element);
+console.log(result34); 
 
